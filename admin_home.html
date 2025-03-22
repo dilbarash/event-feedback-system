@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Home</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; }
+        .container { width: 500px; margin: 50px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0px 0px 10px gray; }
+        .event { padding: 15px; border: 1px solid #ddd; margin-bottom: 10px; border-radius: 5px; cursor: pointer; background: #e9f5ff; }
+        .btn { background: #28a745; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Admin Dashboard</h2>
+        <button class="btn" onclick="createEvent()">+ Create New Event</button>
+        <div id="eventsList">
+            <!-- Admin events will load here -->
+        </div>
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>
